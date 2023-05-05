@@ -1,27 +1,62 @@
 @import 'src/variables';
-.left{
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.5rem;
+
+  .left {
     display: flex;
     align-items: center;
     .logo {
-        position: relative;
-        .rightDumbell {
-          position: absolute;
-          left: 0;
-        }
+      position: relative;
+      .rightDumbell {
+        position: absolute;
+        left: 0;
       }
-    .title{
-        margin-left: 2rem;
-        font-size: 2.5rem;
-        font-family: 'Anton';
-        text-transform: uppercase;
-        letter-spacing: 2px;
-
-        .white{
-            color: $white;
-        }
-        .orange{
-            color: $orange;
-        }
     }
+    .title {
+      margin-left: 2rem;
+      font-size: 2.5rem;
+      font-family: 'Anton';
+      text-transform: uppercase;
+      letter-spacing: 2px;
+
+      .white {
+        color: $white;
+      }
+      .orange {
+        color: $orange;
+      }
+    }
+  }
 }
 
+.right {
+  .linkWrapper {
+    .link {
+      font-family: 'Anton';
+      font-size: 2rem;
+      color: $white;
+      text-decoration: none;
+      margin: 0 30px;
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        background-color: $white;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        transition: width 0.3s ease-in-out;
+      }
+      &:hover:after,
+      &:focus:after,
+      &:active:after {
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
+}
