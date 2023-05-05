@@ -1,0 +1,27 @@
+@import 'src/variables';
+.left{
+    display: flex;
+    align-items: center;
+    .logo {
+        position: relative;
+        .rightDumbell {
+          position: absolute;
+          left: 0;
+        }
+      }
+    .title{
+        margin-left: 2rem;
+        font-size: 2.5rem;
+        font-family: 'Anton';
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+        .white{
+            color: $white;
+        }
+        .orange{
+            color: $orange;
+        }
+    }
+}
+
