@@ -1,6 +1,6 @@
-import Nav from '../nav/nav.component'
+import Nav from '../Nav/nav.component'
 import './header.styles.scss'
-import {MdKeyboardArrowRight} from 'react-icons/md'
+import { MdKeyboardArrowRight } from 'react-icons/md'
 
 const Header = () => {
   return (

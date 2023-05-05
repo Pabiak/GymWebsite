@@ -1,0 +1,40 @@
+@import 'src/variables';
+
+$size: 230px;
+
+.person {
+  background-color: $black;
+  position: relative;
+  height: $size;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+  .personimg {
+    width: $size;
+    height: $size;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba($color: $black, $alpha: 0.8);
+    color: $white;
+    width: $size;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+.person::after {
+  content: '';
+  position: absolute;
+  width: calc($size + 6px);
+  height: calc($size + 6px);
+  background-color: $orange;
+  z-index: -1;
+  filter: blur(2px);
+}
