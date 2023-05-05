@@ -3,7 +3,7 @@ import './nav.styles.scss'
 const Nav = () => {
   return (
     <nav>
-      <div className="left">
+      <div className="navleft">
         <div className="logo">
           <svg
             width="80"
@@ -60,7 +60,7 @@ const Nav = () => {
             <span className="white">gym</span><span className="orange">power</span>
         </div>
       </div>
-      <div className="right">
+      <div className="navright">
         <div className="linkWrapper">
           <a href="#" className="link">Home</a>
           <a href="#" className="link">About</a>
