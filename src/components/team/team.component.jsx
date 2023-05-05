@@ -11,12 +11,12 @@ const Team = () => {
       </div>
       <div className="team">
         <div className="up">
-          <TeamImage name={'Jan Grabowski'} imgSource={'public/member.jpg'} />
-          <TeamImage name={'Andrzej Duda'} imgSource={'public/andrzej.jpg'} />
+          <TeamImage name={'Jan Grabowski'} imgSource={'member.jpg'} />
+          <TeamImage name={'Andrzej Duda'} imgSource={'andrzej.jpg'} />
         </div>
         <div className="down">
-          <TeamImage name={'Grażyna Żarko'} imgSource={'public/grazyna.jpg'} />
-          <TeamImage name={'Adam Tomczak'} imgSource={'public/adam.jpg'} />
+          <TeamImage name={'Grażyna Żarko'} imgSource={'grazyna.jpg'} />
+          <TeamImage name={'Adam Tomczak'} imgSource={'adam.jpg'} />
         </div>
       </div>
     </div>

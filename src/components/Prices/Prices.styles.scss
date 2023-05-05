@@ -19,7 +19,7 @@
   }
 
   .priceboard{
-    width: 100%;
+   // width: 100%;
     height: 100%;
     position: relative;
     z-index: 1;
@@ -37,8 +37,8 @@
     position: absolute;
     width: 403px;
     height: 595px;
-    top: -4px;
-    right: 452px;
+    top: 1;
+    right: 1;
     z-index: -1;
     background-color: $orange;
     filter: blur(2px);

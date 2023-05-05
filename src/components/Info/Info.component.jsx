@@ -32,7 +32,7 @@ const Info = () => {
             <span className="white">where to find&nbsp;</span>
             <span className="orange">us</span>
           </div>
-          <img src="public/map.png" alt="map with gym location" />
+          <img src="map.png" alt="map with gym location" />
         </div>
       </div>
     </div>

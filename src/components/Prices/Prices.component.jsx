@@ -8,7 +8,7 @@ const Prices = () => {
         <span className="orange">prices</span>
       </div>
       <div className="priceboard">
-        <img src="public/cennik.jpg" alt="cennik" />
+        <img src="cennik.jpg" alt="cennik" />
       </div>
     </div>
   )

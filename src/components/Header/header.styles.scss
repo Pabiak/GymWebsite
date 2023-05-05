@@ -1,7 +1,7 @@
 @import 'src/variables';
 
 header {
-  background: url('./header.jpg');
+  background: url('header.jpg');
   background-color: rgba($color: #000, $alpha: 0.5);
   background-blend-mode: darken;
   background-repeat: no-repeat;
