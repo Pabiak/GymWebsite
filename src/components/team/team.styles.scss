@@ -1,29 +1,34 @@
 @import 'src/variables';
 
 .wrapper {
-    background: url('ourteam.jpg');
-    background-color: rgba($color: #000, $alpha: 0.7);
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 800px;
-  .text {
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-    padding-top: 3rem;
-  }
-  .team {
-    .up,
-    .down {
+  background: url('ourteam.jpg');
+  background-color: rgba($color: #000, $alpha: 0.7);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 800px;
+  transform: skewY(6deg);
+  
+  .content {
+    transform: skewY(-6deg);
+    .text {
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      gap: 5rem;
-      margin: 3rem 3rem 0 3rem;
+      padding-top: 3rem;
+    }
+    .team {
+      .up,
+      .down {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5rem;
+        margin: 3rem 3rem 0 3rem;
+      }
     }
   }
 }

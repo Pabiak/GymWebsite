@@ -7,27 +7,35 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
-  display: flex;
-  align-items: center;
   text-transform: uppercase;
+  transform: skewY(-6deg);
 
-  .contacttext {
-    margin-top: 50px;
-    font-size: 2rem;
+  .content{
+    transform: skewY(6deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .contacttext {
+      margin-top: 50px;
+      font-size: 2rem;
+    }
+  
+    .contactdetails {
+      font-size: 2rem;
+      color: $white;
+      margin: 50px;
+  
+      div {
+        margin-bottom: 100px;
+      }
+  
+      .phone,
+      .mail {
+        margin-right: 90px;
+      }
+    }
   }
 
-  .contactdetails {
-    font-size: 2rem;
-    color: $white;
-    margin: 50px;
-
-    div {
-      margin-bottom: 100px;
-    }
-
-    .phone,
-    .mail {
-      margin-right: 90px;
-    }
-  }
 }

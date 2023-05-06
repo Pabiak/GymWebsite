@@ -2,6 +2,7 @@
 
 .infowrapper {
   background-color: $black;
+  position: relative;
 
   .flexwrapper {
     display: flex;
@@ -12,6 +13,12 @@
       text-transform: uppercase;
       font-size: 2.5rem;
       margin: 50px 0 20px;
+    }
+
+    .location{
+      .infotext{
+        margin-top: -20px;
+      }
     }
 
     .lorem {
@@ -29,7 +36,7 @@
       padding: 10px 35px;
       cursor: pointer;
       transition: 0.3s;
-      margin: 30px 0 50px 0;
+      margin: 30px 0 120px 0;
 
       &:hover {
         background-color: rgba($color: $orange, $alpha: 0.8);

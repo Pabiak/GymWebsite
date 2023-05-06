@@ -11,7 +11,9 @@ const Header = () => {
           <span className="white">do it for</span>
           <span className="orange">yourself</span>
         </div>
-        <button className='joinbutton'>join to us now <MdKeyboardArrowRight className='buttonicon'/></button>
+        <button className="joinbutton">
+          join to us now <MdKeyboardArrowRight className="buttonicon" />
+        </button>
       </div>
     </header>
   )
