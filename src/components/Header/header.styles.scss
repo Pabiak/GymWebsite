@@ -8,8 +8,10 @@ header {
   background-size: cover;
   min-height: 1000px;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
   .headerleft {
     margin: 100px;
+
     .text {
       display: flex;
       flex-direction: column;

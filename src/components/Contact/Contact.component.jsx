@@ -1,7 +1,7 @@
-import './Contact.styles.scss'
-
 import { BsTelephoneFill } from 'react-icons/bs'
 import { MdAlternateEmail } from 'react-icons/md'
+
+import './Contact.styles.scss'
 
 const Contact = () => {
   return (
